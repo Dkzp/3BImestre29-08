@@ -4,7 +4,7 @@
 //      GERENCIAMENTO DA GARAGEM & PERSISTÊNCIA (AGORA VIA API/MONGODB)
 // ==================================================
 
-const backendUrl = 'http://localhost:3001'; // URL do seu backend
+const backendUrl = 'https://delightful-dolphin-fb4ef6.netlify.app'; // URL do seu backend
 /** @type {Object.<string, CarroBase>} */
 let garagem = {};
 
@@ -1396,5 +1396,6 @@ function setupEventListeners() {
     
     console.log("Listeners Iniciais configurados.");
 }
+
 
 document.addEventListener('DOMContentLoaded', inicializarAplicacao);
